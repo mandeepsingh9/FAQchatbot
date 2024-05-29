@@ -9,7 +9,7 @@ const Chatbot = () => {
   useEffect(() => {
     const fetchGreeting = async () => {
       try {
-        const res = await axios.get('http://localhost:8080/');
+        const res = await axios.get('faqchatbot-zeta.vercel.app/');
         const greeting = res.data;
         console.log(greeting);
         setConversation([{ bot: greeting }]);
@@ -24,7 +24,7 @@ const Chatbot = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:8080/faq', { query });
+      const res = await axios.post('faqchatbot-zeta.vercel.app/faq', { query });
       const botResponse = res.data.answer;
 
       setConversation([
