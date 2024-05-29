@@ -2,14 +2,15 @@ const express = require('express');
 require("dotenv").config();
 const fs = require('fs');
 const cors = require('cors');
-
+const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
 app.use(cors());
 
-let faqs = JSON.parse(fs.readFileSync('faqs.json')).faqs;
+const faqsFilePath = path.join(__dirname, 'faqs.json');
+let faqs = JSON.parse(fs.readFileSync(faqsFilePath)).faqs;
 
 function findBestMatch(query, faqs) {
   query = query.toLowerCase();
