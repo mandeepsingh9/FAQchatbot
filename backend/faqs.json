@@ -1,0 +1,56 @@
+{
+  "faqs": [
+    {
+      "question": "What are your shipping policies?",
+      "answer": "Our shipping policies include free shipping on orders over Rs 500. Orders under Rs 500 have a flat shipping fee of Rs 100."
+    },
+    {
+      "question": "Do you offer free shipping?",
+      "answer": "Yes, we offer free shipping on orders over Rs 500. For orders under Rs 500, there is a flat shipping fee of Rs 50."
+    },
+    {
+      "question": "What is the return policy?",
+      "answer": "You can return any item within 30 days of purchase for a full refund. The item must be in its original condition and packaging."
+    },
+    {
+      "question": "How do I initiate a return?",
+      "answer": "To initiate a return, please visit our returns page and fill out the return form. You will receive instructions on how to ship your item back to us."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept Visa, MasterCard, American Express, Discover, and PayPal."
+    },
+    {
+      "question": "Can I pay with Online?",
+      "answer": "Yes, we accept paytm, Gp, DebitCard , Credit Card as a payment method."
+    },
+    {
+      "question": "is COD  Available ?",
+      "answer": "Yes, we can pay after delivery."
+    },
+    {
+      "question": "How long does shipping take?",
+      "answer": "Shipping usually takes 3-5 business days for standard delivery and 1-2 business days for expedited delivery."
+    },
+    {
+      "question": "Can I track my order?",
+      "answer": "Yes, you can track your order using the tracking number provided in your shipping confirmation email."
+    },
+    {
+      "question": "What should I do if I receive a damaged item?",
+      "answer": "If you receive a damaged item, please contact our customer service immediately. We will arrange for a replacement or refund."
+    },
+    {
+      "question": "Do you ship internationally?",
+      "answer": "Currently, we only ship within the India."
+    },
+    {
+      "question": "What are the customer service hours?",
+      "answer": "Our customer service is available Monday through Friday from 9 AM to 5 PM ."
+    },
+    {
+      "question": "Can I change my order after it has been placed?",
+      "answer": "Unfortunately, once an order has been placed, we cannot make changes to it. Please contact customer service for further assistance."
+    }
+  ]
+}
